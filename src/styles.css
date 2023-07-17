@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.App {
+  background-color: rgb(8, 6, 6);
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  background-color: rgba(36, 35, 43, 255);
+  height: 420px;
+  width: 360px;
+  margin-top: 40px;
+  padding: 10px 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.characterLength {
+  margin-top: 20px;
+  color: rgba(135, 135, 140, 255);
+  display: flex;
+  justify-content: space-between;
+}
+.strength {
+  background-color: black;
+  border-radius: 10px;
+  height: 40px;
+  padding: 10px;
+  color: rgba(134, 134, 138, 255);
+  display: flex;
+  justify-content: space-between;
+}
+.strengthSignal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.indicatorBox {
+  margin-top: 3px;
+  display: flex;
+}
+.indicator {
+  height: 3px;
+  width: 8px;
+
+  margin-left: 1px;
+}
+.generate {
+  height: 40px;
+  background-color: rgba(42, 139, 139, 255);
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+}
+#first {
+  background-color: red;
+}
+#second {
+  background-color: red;
+}
+#third,
+#fourth,
+#fifth {
+  background-color: grey;
+}
